@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "[Vless] vpn.tkcy.cloudns.be", server: vpn.tkcy.cloudns.be, port: 443, type: vless, uuid: f48b0692-46bd-4180-bcf8-427981a05e02, tls: true, skip-cert-verify: false, servername: vpn.tkcy.cloudns.be, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vpn.tkcy.cloudns.be}}}
+  - {name: "[Vsless] vpn.tkcy.cloudns.be", server: vpn.tkcy.cloudns.be, port: 443, type: vless, uuid: f48b0692-46bd-4180-bcf8-427981a05e02, tls: true, skip-cert-verify: false, servername: vpn.tkcy.cloudns.be, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vpn.tkcy.cloudns.be}}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
