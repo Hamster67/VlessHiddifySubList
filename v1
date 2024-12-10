@@ -1,5 +1,6 @@
 proxies:
   - {name: "🇹🇼 TW", server: vpn.tkcy.cloudns.be, port: 443, type: vless, uuid: f48b0692-46bd-4180-bcf8-427981a05e02, tls: true, skip-cert-verify: false, servername: vpn.tkcy.cloudns.be, client-fingerprint: randomized, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vpn.tkcy.cloudns.be}}}
+  - {name: "🇹🇼 TW 2", server: 210.61.97.241, port: 81, type: trojan, password: ouo, sni: tr.koiok.us.kg, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: tr.koiok.us.kg}}, udp: true}
   - {name: "🇯🇵 JP", server: 36.151.192.198, port: 31071, type: trojan, password: QwwHvrnN, skip-cert-verify: false, udp: true}
   - {name: "🇨🇳 CN", server: soonjp.soon.guru, port: 40003, type: ss, cipher: chacha20-ietf-poly1305, password: ab8b625c-efb8-45cd-b509-c7cceabe0cc6, udp: true}
   - {name: "🇨🇳 CN 2", server: 42.236.73.72, port: 443, type: trojan, password: fuck, sni: www.zitian.cn, alpn: [http/1.1], skip-cert-verify: false, udp: true}
