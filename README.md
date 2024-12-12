@@ -5,6 +5,7 @@
 
 # 訂閱地址：
 ### 正式版：https://raw.githubusercontent.com/Hamster67/HiddifySubList/main/v1
+### 中國版：https://raw.githubusercontent.com/Hamster67/HiddifySubList/main/cn
 ### 測試版：https://raw.githubusercontent.com/Hamster67/HiddifySubList/main/beta
 
 <details>
